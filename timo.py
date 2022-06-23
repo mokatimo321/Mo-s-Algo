@@ -52,15 +52,18 @@ if uploaded_file is not None:
 
 
     st.subheader("Choose the Value of RSI for Buying")
-    rsi_buy = st.slider('RSI (0 to 100)', 0, 100, 30)
+    #rsi_buy = st.slider('RSI (0 to 100)', 0, 100, 30)
+    rsi_buy = st.number_input('RSI (0 to 100)')
 
     if(just_rsi or rsi_and_vwap):
         st.subheader("Choose the Value of RSI for Selling")
-        rsi_sell = st.slider('RSI (0 to 100)', 0, 100, 60)
+        #rsi_sell = st.slider('RSI (0 to 100)', 0, 100, 60)
+        rsi_sell = st.number_input('RSI (0 to 100)')
 
     if(rsi_and_cmo or rsi_cmo_vwap):
         st.subheader("Choose the Value of CMO for Selling")
-        cmo = st.slider('CMO (-100 to 100)', -100, 100, 50)
+        #cmo = st.slider('CMO (-1000 to 100)', -100, 100, 50)
+        cmo = st.number_input('CMO (-100 to 100)')
           
     
     rsi_list = []

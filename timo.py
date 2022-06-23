@@ -60,7 +60,7 @@ if uploaded_file is not None:
 
     if(rsi_and_cmo or rsi_cmo_vwap):
         st.subheader("Choose the Value of CMO for Selling")
-        cmo = st.slider('CMO (-1000 to 100)', -100, 100, 50)
+        cmo = st.slider('CMO (-100 to 100)', -100, 100, 50)
           
     
     rsi_list = []

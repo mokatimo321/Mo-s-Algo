@@ -9,17 +9,6 @@ import plotly.graph_objects as go
 import pandas as pd
 from datetime import datetime
 
-
-#"""input_df = pd.read_csv(uploaded_file)      
-    #fig = go.Figure(data=[go.Candlestick(x=input_df['date'],
-                #open=input_df['open'],
-                #high=input_df['high'],
-                #low=input_df['low'],
-                #close=input_df['close'])])
-    
-    #st.plotly_chart(fig)"""
-
-
 st.write("""
 # MO's ALGO -- Made by Mohit
 """)

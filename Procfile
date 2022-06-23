@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run vascoda.py
+web: sh setup.sh && streamlit run timo.py
